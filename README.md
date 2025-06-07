@@ -4,7 +4,7 @@
 
 This repository contains a Python-based implementation of a **customer segmentation** pipeline using **K-Means clustering**. The goal is to group customers into distinct segments based on demographic and behavioral features—specifically **Gender**, **Age**, **Annual Income (k\$)**, and **Spending Score (1-100)**—so that marketing strategies and resource allocation can be tailored to each segment’s characteristics.
 
----
+
 
 ## Dataset
 
@@ -19,7 +19,7 @@ This repository contains a Python-based implementation of a **customer segmentat
 
 > **Note:** Ensure there are no missing values or obvious data-entry errors before running the segmentation pipeline.
 
----
+
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ This repository contains a Python-based implementation of a **customer segmentat
    pip install pandas numpy scikit-learn matplotlib seaborn
    ```
 
----
+
 
 ## Installation & File Structure
 
@@ -54,7 +54,7 @@ This repository contains a Python-based implementation of a **customer segmentat
    seaborn
    ```
 
----
+
 
 ## Usage
 
@@ -74,7 +74,7 @@ This repository contains a Python-based implementation of a **customer segmentat
    * A **scatter plot** of **Annual Income vs. Spending Score** with each point colored by cluster.
    * A printed or displayed **cluster summary table** showing average Age, Income, Spending Score, Gender ratio, and count per cluster.
 
----
+
 
 ## Methodology
 
@@ -118,7 +118,7 @@ This repository contains a Python-based implementation of a **customer segmentat
 
    * Use summary statistics to label each segment (e.g., “Young High-Spenders,” “High-Income Low-Spenders,” etc.) and guide targeted marketing actions.
 
----
+
 
 ## Example Outputs
 
@@ -153,7 +153,7 @@ This repository contains a Python-based implementation of a **customer segmentat
      * Values near 0 → predominantly male
      * Values near 1 → predominantly female
 
----
+
 
 ## Cluster Profiles (Based on Averages)
 
@@ -174,7 +174,7 @@ This repository contains a Python-based implementation of a **customer segmentat
 
 Use these insights to inform marketing strategies, promotions, and personalized offers.
 
----
+
 
 ## Next Steps & Extensions
 
@@ -185,20 +185,20 @@ Use these insights to inform marketing strategies, promotions, and personalized 
 * **Real-Time Segmentation**: Wrap the pipeline in an API (Flask/FastAPI) to assign new customers live.
 * **Dashboarding**: Build an interactive dashboard (Streamlit, Power BI, or Tableau) to explore segments and key metrics.
 
----
+
 
 ## License
 
 This project is open-source under the **MIT License**. Feel free to modify and redistribute.
 
----
+
 
 ## Acknowledgments
 
 * Inspired by the classic “Mall Customers” dataset examples.
 * Thanks to the [scikit-learn documentation](https://scikit-learn.org/) for clustering guidance and \[Matplotlib/Seaborn]\([https://matplotlib.org/](https://matplotlib.org/), [https://seaborn.pydata.org/](https://seaborn.pydata.org/)) for visualization best practices.
 
----
+
 
 > **Happy Segmenting!**
 > If you have questions or suggestions, please open an issue or submit a pull request.
