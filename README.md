@@ -1,30 +1,34 @@
-````markdown
 # Customer Segmentation Project
 
-## Project Overview  
-This repository contains a Python-based implementation of a **customer segmentation** pipeline using **K-Means clustering**. The goal is to group customers into distinct segments based on demographic and behavioral features—specifically **Gender**, **Age**, **Annual Income (k$)**, and **Spending Score (1-100)**—so that marketing strategies and resource allocation can be tailored to each segment’s characteristics.
+## Project Overview
+
+This repository contains a Python-based implementation of a **customer segmentation** pipeline using **K-Means clustering**. The goal is to group customers into distinct segments based on demographic and behavioral features—specifically **Gender**, **Age**, **Annual Income (k\$)**, and **Spending Score (1-100)**—so that marketing strategies and resource allocation can be tailored to each segment’s characteristics.
 
 ---
 
-## Dataset  
-- **Source:** Provided file `Mall_Customers.csv`.  
-- **Columns:**  
-  - `CustomerID` (int): Unique identifier (dropped before clustering)  
-  - `Gender` (string): “Male” or “Female”  
-  - `Age` (int): Customer’s age in years  
-  - `Annual Income (k$)` (float): Yearly income in thousands of dollars  
-  - `Spending Score (1-100)` (int): A score assigned by the store based on customer behavior and spending patterns  
+## Dataset
+
+* **Source:** Provided file `Mall_Customers.csv`.
+* **Columns:**
+
+  * `CustomerID` (int): Unique identifier (dropped before clustering)
+  * `Gender` (string): “Male” or “Female”
+  * `Age` (int): Customer’s age in years
+  * `Annual Income (k$)` (float): Yearly income in thousands of dollars
+  * `Spending Score (1-100)` (int): A score assigned by the store based on customer behavior and spending patterns
 
 > **Note:** Ensure there are no missing values or obvious data-entry errors before running the segmentation pipeline.
 
 ---
 
-## Prerequisites  
-1. **Python 3.8+**  
-2. Install the following Python packages:  
+## Prerequisites
+
+1. **Python 3.8+**
+2. Install the following Python packages:
+
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
-````
+   ```
 
 ---
 
@@ -120,7 +124,7 @@ This repository contains a Python-based implementation of a **customer segmentat
 
 1. **Elbow Plot**
 
-   ```text
+   ```
    Elbow Method Plot indicates k = 5 as the optimal number of clusters.
    ```
 
@@ -128,13 +132,13 @@ This repository contains a Python-based implementation of a **customer segmentat
 
 2. **Cluster Scatter Plot**
 
-   ```text
+   ```
    A scatter plot showing Annual Income (x-axis) vs. Spending Score (y-axis), with points colored by cluster 0–4.
    ```
 
 3. **Cluster Summary Table**
 
-   ```text
+   ```
    Cluster | Count | Gender (mean) | Age (mean) | Annual Income (k$) | Spending Score
    -------------------------------------------------------------------------------
    0       | 55    | 0.00          | 28.35      | 60.80              | 68.65
@@ -199,6 +203,3 @@ This project is open-source under the **MIT License**. Feel free to modify and r
 
 > **Happy Segmenting!**
 > If you have questions or suggestions, please open an issue or submit a pull request.
-
-```
-```
