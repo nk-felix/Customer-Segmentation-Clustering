@@ -157,21 +157,20 @@ This repository contains a Python-based implementation of a **customer segmentat
 
 ## Cluster Profiles (Based on Averages)
 
-* **Cluster 0** (55 customers)
+* **Cluster 0 (55 customers)**
+  * All male, average age 28, mid-range income ($60k), high spending (69).
 
-  * All male, average age ~~28, mid-range income (~~\$60k), high spending (\~69).
-* **Cluster 1** (40 customers)
+* **Cluster 1 (40 customers)**
+  * All female, average age 28, mid-range income ($62k), very high spending (72).
 
-  * All female, average age ~~28, mid-range income (~~\$62k), very high spending (\~72).
-* **Cluster 2** (43 customers)
+* **Cluster 2 (43 customers)**
+  * All male, older (49), lower-to-mid income ($46k), moderate spending (40).
 
-  * All male, older (~~49), lower-to-mid income (~~\$46k), moderate spending (\~40).
-* **Cluster 3** (31 customers)
+* **Cluster 3 (31 customers)**
+  * All female, oldest group (56), lower-to-mid income ($49k), moderate spending (39).
 
-  * All female, oldest group (~~56), lower-to-mid income (~~\$49k), moderate spending (\~39).
-* **Cluster 4** (31 customers)
-
-  * Mixed gender (\~55% female), middle-aged (~~40), highest income (~~\$90k), very low spending (\~16).
+* **Cluster 4 (31 customers)**
+  * Mixed gender (≈55% female), middle-aged (40), highest income ($90k), very low spending (16).
 
 Use these insights to inform marketing strategies, promotions, and personalized offers.
 
